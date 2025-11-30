@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CreateRecipe from "./CreateRecipe";
 import ShowRecipe from "./ShowRecipe";
-import Header from "./Header";
 import { useSelector } from "react-redux";
 import recipeLoader from "../utility/assets/loadingCooking.gif";
 import { loadingMessages } from "../utility/constants";
