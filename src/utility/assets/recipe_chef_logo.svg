@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent app-logo style mark: chef hat + cooking tools -->
+  <g stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Outer rounded square frame (optional if user wants just icon, they can remove this) -->
+    <rect x="48" y="48" width="416" height="416" rx="112" ry="112" />
+
+    <!-- Chef hat -->
+    <path d="M188 220
+             C176 178 196 150 230 144
+             C242 120 270 108 296 116
+             C320 104 352 112 368 136
+             C392 140 410 160 412 184
+             C414 210 402 230 380 242" />
+
+    <!-- Hat band -->
+    <path d="M188 248 H372" />
+
+    <!-- Hat base curve -->
+    <path d="M204 248
+             C210 292 222 320 248 336
+             H312
+             C338 320 350 292 356 248" />
+
+    <!-- Crossed spatula -->
+    <path d="M200 340 L144 396" />
+    <rect x="132" y="392" width="40" height="40" rx="8" ry="8" />
+    <path d="M204 316
+             L170 282
+             C162 274 150 274 142 282
+             L130 294" />
+
+    <!-- Crossed whisk -->
+    <path d="M312 340 L368 396" />
+    <ellipse cx="380" cy="408" rx="22" ry="32" />
+    <path d="M296 316 L332 280" />
+    <path d="M304 324 L344 284" />
+    <path d="M312 332 L356 288" />
+  </g>
+</svg>
