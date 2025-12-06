@@ -4,7 +4,8 @@ const gptSlice = createSlice({
     name: 'gptkey',
     initialState: {
         userKey: null,
-        loading: false
+        loading: false,
+        cache: {}
     },
     reducers: {
         addGptKey : (state, action)=>{
@@ -13,9 +14,14 @@ const gptSlice = createSlice({
 
         setLoadingState: (state, action)=>{
             state.loading = !state.loading
+        },
+
+        addToCache: (state, action)=>{
+            const {query, suggestions} = action.payload
+            state.cache[query] = suggestions
         }
     }
 })
 
-export const {addGptKey, setLoadingState} = gptSlice.actions
+export const {addGptKey, setLoadingState, addToCache} = gptSlice.actions
 export default gptSlice.reducer

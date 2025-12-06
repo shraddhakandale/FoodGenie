@@ -11,4 +11,3 @@ export const loadingMessages = [
   "Cooking brilliance just for you… hold tight!",
   "Your custom recipe is in the oven… almost done!",
 ];
-

@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 
 const ShowRecipe = () => {
   const generatedRecipes = useSelector(
-    (store) => store.recipe.generatedRecipes
+    (store) => store?.recipe?.generatedRecipes
   );
   console.log(generatedRecipes)
   if (!generatedRecipes) return;
